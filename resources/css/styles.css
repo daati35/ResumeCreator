@@ -1,6 +1,8 @@
+
+
 @font-face {
     font-family: "HelveticalNeue";
-    src: url(resources\fonts\HelveticalNeue.ttc);
+    src: url("../fonts/HelveticaNeue.ttc");
 }
 
 
@@ -12,26 +14,44 @@ body {
     
 }
 
-
-
 header {
-    color: #eb4034;
+    padding-top: 10px;
+    padding-left: 50px;
 }
+
+.logo{
+    margin-bottom: 10px;
+}
+
+
+* {
+    font-family: "HelveticalNeue";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 
 
 
 .container {
-    height: 200px;
+    height: 100vh;
   position: relative;
   
 }
 
+body {
+    background-image: url("../photos/background.jpg");
+    object-fit: cover;
+}
+
+
 
 
 .create-resume {
-    margin: 0;
+  
   position: absolute;
-  top: 200%;
+  top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -44,7 +64,8 @@ header {
   display: inline-block;
   font-size: 16px;
   border-radius: 15px;
-  width: 300px; 
+  width: 300px;
+  
     
     
   }
@@ -52,9 +73,16 @@ header {
   
 .watermark {
     
-    max-width: 10%;
-    max-height: 10%;
-    opacity: 0.2;
+    /* max-width: 10%;
+    max-height: 10%; */
+    opacity: 0.5;
+    position:absolute;
+    top: 50%;
+    left: 57%;
+    transform:translate(-50%, -50%);
+    z-index: 100;
+    width: 200px;
+    height: 200px;
     
        
        
@@ -64,6 +92,8 @@ header {
     max-width: 10%;
     max-height: 10%;
 }
+
+
 
 
 
