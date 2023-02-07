@@ -1,0 +1,205 @@
+@font-face {
+    font-family: "HelveticalNeue";
+    src: url("../fonts/HelveticaNeue.ttc");
+}
+
+* {
+    font-family: "HelveticalNeue";
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        
+        #F2F3F5 60%,
+        white 40%
+    ) ;
+        
+}
+
+
+
+
+
+.icon{
+    
+    border: none;
+    border-radius: 70%;
+    
+    border-color:white;
+    background: none;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.head {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+     
+}
+
+
+
+.half1 {
+    width: 55%;
+    padding-left: 50px;
+    
+    
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.name {
+    padding-top: 40px;
+    padding-left: 50px;
+    display: flex;
+    
+}
+
+.saxeli {
+    border: 1px solid #BCBCBC;
+    width: 371px;
+    height: 48px;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding-left: 15px;
+    
+    
+    
+    
+}
+
+.gvari {
+    border: 1px solid #BCBCBC;
+    width: 371px;
+    height: 48px;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-left: 4px;
+    
+
+
+}
+
+
+.lastname {
+    margin-left: 50px;
+}
+
+form {
+    display: flex;
+    gap: 55px;
+}
+
+.piroba {
+    margin-top: 10px;
+    font-size: small;
+    
+    
+}
+
+.heading {
+    margin-left: 50px;
+    display: flex;
+}
+
+.upload {
+    background-color: #0E80BF;
+  color: white;
+  padding: 10px;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  align-items: center;
+  margin-left: 19px;
+  width: 107px;
+  height: 27px;
+  text-align: center;
+  padding-top: 4px;
+  
+  
+}
+
+.photo {
+    margin-top: 55px;
+}
+
+.about {
+    border: 1px solid #BCBCBC;
+    border-radius: 4px;
+    margin-top: 2px;
+    margin-left: 50px;
+    width: 798px;
+    height: 103px;
+    padding-left: 15px;
+    padding-top: 2px;
+
+}
+
+.biography{
+    margin-top: 5px;
+
+}
+
+.mail{
+    margin-top: 30px;
+}
+
+.email {
+    border: 1px solid #BCBCBC;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 48px;
+    width: 798px;
+    padding-left: 15px;
+
+}
+
+.emailpiroba {
+    margin-top: 10px;
+    font-size: small;
+    margin-left: 50px;
+
+
+}
+
+.phone {
+    margin-top: 25px;
+}
+
+.nextpage {
+    margin-top: 20px;
+}
+
+
+.nav {
+    background-color: #6B40E3;
+  color: white;
+  padding: 10px;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  align-items: center;
+  margin-left: 50%;
+  width: 151px;
+  height: 48px;
+  text-align: center;
+  
+  
+
+}
+
+
+
+
