@@ -143,7 +143,10 @@ form {
     width: 798px;
     height: 103px;
     padding-left: 15px;
-    padding-top: 2px;
+    padding-top: 20px;
+    text-align: 0;
+    padding-bottom: 80px;
+    
 
 }
 
