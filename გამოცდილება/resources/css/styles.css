@@ -1,0 +1,215 @@
+@font-face {
+    font-family: "HelveticalNeue";
+    src: url("../fonts/HelveticaNeue.ttc");
+}
+
+* {
+    font-family: "HelveticalNeue";
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        
+        #F2F3F5 60%,
+        white 40%
+    ) ;
+    font-size: large;
+        
+}
+
+.icon{
+    
+    border: none;
+    border-radius: 70%;
+    margin-bottom: 10px;
+    border-color:white;
+    background: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.head {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: large;
+    
+     
+}
+
+.heading {
+    margin-left: 50px;
+    display: flex;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.half1 {
+    width: 55%;
+    padding-left: 50px;
+    
+    
+}
+
+
+.position{
+    margin-top: 30px;
+}
+
+.tanamdeboba {
+    border: 1px solid #BCBCBC;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 48px;
+    width: 798px;
+    padding-left: 15px;
+
+}
+
+.piroba {
+    margin-top: 10px;
+    font-size: small;
+    margin-left: 50px;
+
+
+}
+
+.employer {
+    margin-top: 25px;
+}
+
+
+.date{
+    margin-top: 30px;
+    display: flex;
+}
+
+
+.calender {
+    border: 1px solid #BCBCBC;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 48px;
+    width: 371px;
+    padding-left: 15px;
+
+
+}
+
+.about {
+    margin-top: 30px;
+}
+
+
+.biography {
+    border: 1px solid #BCBCBC;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 798px;
+    height: 103px;
+    padding-left: 15px;
+    padding-top: 20px;
+    text-align: 0;
+    padding-bottom: 80px;
+}
+
+
+.border {
+    width: 52.5%;
+    margin-left: 50px;
+    margin-top: 70px;
+    opacity: 0.5;
+}
+
+.add-more {
+    margin-top: 65px;
+    margin-left: 50px;
+}
+
+
+.add {
+    background-color: #0E80BF;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  align-items: center;
+  padding-left: 19px;
+  width: 289px;
+  height: 48px;
+  text-align: center;
+  margin-top: 4px;
+  font-size: 16px;
+
+}
+
+.navigation {
+    display: flex;
+}
+
+
+
+.back {
+    margin-top: 80px;
+    margin-left: 50px;
+    display: flex;
+    
+}
+
+
+.back-btn {
+  background-color: #6B40E3;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  align-items: center;
+  width: 120px;
+  height: 48px;
+  text-align: center;
+  display: flex;
+  padding-left: 30%;
+
+}
+
+
+.next {
+    
+    margin-left: 40%;
+    margin-top: 80px;
+    display: flex;
+    
+
+}
+
+
+.next-btn {
+  background-color: #6B40E3;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  width: 120px;
+  height: 48px;
+  text-align: center;
+  
+
+}
+
+
+
